@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+h4 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+nav a.active {
+    border-bottom: 2px solid black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    gap: 20px;
+    height: 50px;
+    box-shadow: 0 8px 6px -6px black;
+} 
+
+.navbar h1 {
+    margin-left: 20px;
+    width: 250px;
+}
+
+.title {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 0.75em;
+}
+
+.content .description {
+    padding-left: 0;
+    margin-bottom: 2em;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.picture {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.picture-150 {
+    width: 150px;
+    height: 150px;
+}
+
+.picture-300 {
+    width: 300px;
+    height: 300px;
+}
+
+/**/
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: forestgreen;
+}
+
+.contact {
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+    color: forestgreen;
+}
+
+.content {
+    flex: 70%;
+    background-color: forestgreen;
+    padding: 20px;
+    color: white;
+}
+
+.content p {
+    padding-left: 1em;
+}
+
+/* Menu */
+.menu-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item-name {
+    width: 300px;
+}
+
+.menu-item-weight {
+    width: 150px;
+}
+
+.menu-item-price {
+    width: 150px;
+    text-align: right;
+}
